@@ -4,7 +4,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-url = 'https://raw.githubusercontent.com/vha22/bank-marketing/main/bank.csv'
+url = 'https://raw.githubusercontent.com/sdrcr74/test/main/bank.csv'
 bank = pd.read_csv(url)
 st.title("Bank Marketing Campaign")
 st.sidebar.title("Sommaire")
