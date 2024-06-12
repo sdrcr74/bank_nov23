@@ -4,3 +4,7 @@ streamlit
 plotly
 matplotlib
 seaborn
+train_test_split
+standardscaler
+labelencoder
+
