@@ -4,7 +4,7 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-url = 'https://raw.githubusercontent.com/sdrcr74/test/main/bank.csv'
+url = 'https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/bank.csv'
 bank = pd.read_csv(url)
 st.title("Bank Marketing Campaign")
 st.sidebar.title("Sommaire")
@@ -15,7 +15,7 @@ if page==pages[0]:
   st.write("L’objectif du projet est d’établir un modèle permettant de prédire le succès d’une campagne marketing d’une banque. Concrètement, il s’agit de prédire si suite à la campagne, un client souscrit ou non au produit Dépôt à terme.")
   st.write("Le jeu de données qui nous a été mis à disposition s’appelle “Bank Marketing Dataset”. Ce jeu de données est disponible librement sur Kaggle, mais à la base il vient de la UC Irvine Machine Learning Repository. Ce sont des données liées aux campagnes de marketing direct d’une banque portugaise. Il date de 2012.Il contient 11 162 lignes de données et 17 colonnes.")
   st.write("Dans un premier temps, nous étudierons les différentes variables puis analyserons le dataset et procéderons à un nettoyage des données: doublons, données manquantes, pertinence des différentes variables.")
-  st.image("banking.jpg")
+  st.image("https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/banking.jpg")
 elif page==pages[1]:
   st.write('Exploration des données')
   st.write("Avant d'explorer les données du dataset, il nous a semblé pertinent de comprendre les différentes variables présentes dans le jeu de données.") 
