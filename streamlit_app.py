@@ -6,7 +6,7 @@ import seaborn as sns
 
 url = 'https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/bank.csv'
 bank = pd.read_csv(url)
-st.title("<div style="text-align: justify;">Prédiction du succès d’une campagne de Marketing d’une banque</div>", unsafe_allow_html=True)
+st.title("<h1 style="text-align: justify;">Prédiction du succès d’une campagne de Marketing d’une banque</h1>", unsafe_allow_html=True)
 st.subheader("Maxence Malherre, Sophie Dorcier, Stéphane Lascaux, Van-Anh HA")
 st.subheader("Formation Data Analyst - Datascientest Novembre 2023")
 st.sidebar.title("Sommaire")
