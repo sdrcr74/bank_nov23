@@ -6,9 +6,11 @@ import seaborn as sns
 
 url = 'https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/bank.csv'
 bank = pd.read_csv(url)
-st.title("Bank Marketing Campaign")
+st.title("Prédiction du succès d’une campagne de Marketing d’une banque")
+st.write("Maxence Malherre, Sophie Dorcier, Stéphane Lascaux, Van-Anh HA")
+st.write("Formation Data Analyst - Datascientest Novembre 2023")
 st.sidebar.title("Sommaire")
-pages=["Contexte du projet","Exploration des données","Analyse des données","Modélisation","Conclusion"]
+pages=["Le projet & jeu de données","Analyse & Datavisualisation","Préparation des données","Modélisation","Conclusion"]
 page=st.sidebar.radio("Aller à la page:", pages)
 if page==pages[0]:
   st.write("Contexte du projet")
