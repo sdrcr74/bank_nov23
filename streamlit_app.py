@@ -8,11 +8,11 @@ url = 'https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/bank.csv'
 bank = pd.read_csv(url)
 st.markdown("<h1 style='text-align: justify;'>Prédiction du succès d une campagne de Marketing d’une banque</h1>", unsafe_allow_html=True)
 st.subheader("Maxence Malherre, Sophie Dorcier, Stéphane Lascaux, Van-Anh HA")
-st.image("https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/logo-datascientest.png", output_format="jpeg")
 st.subheader("Formation Data Analyst - Datascientest Novembre 2023", divider='rainbow')
 st.sidebar.title("Sommaire")
 pages=["Le projet & jeu de données","Analyse & Datavisualisation","Préparation des données","Modélisation","Conclusion"]
 page=st.sidebar.radio("Aller à la page:", pages)
+st.image("https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/logo2.jpeg")
 if page==pages[0]:
   st.write("Contexte du projet")
   st.write("L’objectif du projet est d’établir un modèle permettant de prédire le succès d’une campagne marketing d’une banque. Concrètement, il s’agit de prédire si suite à la campagne, un client souscrit ou non au produit Dépôt à terme.")
