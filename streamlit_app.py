@@ -102,7 +102,7 @@ elif page==pages[2]:
     fig11=sns.displot(x='previous', data=bank, stat = 'percent')
     plt.title('Répartition du nombre de contact de la dernière campagne')
     st.pyplot(fig11)
-     if Graphique_sélectionné=='Répartition des types de métier en fonction des dépôts à terme':
+  if Graphique_sélectionné=='Répartition des types de métier en fonction des dépôts à terme':
     b_df = pd.DataFrame()
     b_df['yes'] = bank[bank['deposit'] == 'yes']['job'].value_counts()
     b_df['no'] = bank[bank['deposit'] == 'no']['job'].value_counts()
