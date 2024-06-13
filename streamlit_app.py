@@ -26,7 +26,7 @@ if page==pages[0]:
   st.write("Définition des variables :")
   url2 = 'https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/Liste%20variable.csv'
   liste_variable = pd.read_csv(url2, sep =";")
-  st.write("liste_variable")
+  st.write(liste_variable)
   st.write("Dans un premier temps, nous étudierons les différentes variables à travers les visualisations. Dans un deuxième temps, nous procéderons aux préparations de données nécessaires permettant de les modéliser par la suite.")
   st.image("https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/banking.jpg")
 elif page==pages[1]:
