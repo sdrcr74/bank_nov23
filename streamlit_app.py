@@ -8,6 +8,7 @@ url = 'https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/bank.csv'
 bank = pd.read_csv(url)
 st.markdown("<h1 style='text-align: justify;'>Prédiction du succès d une campagne de Marketing d’une banque</h1>", unsafe_allow_html=True)
 st.subheader("Maxence Malherre, Sophie Dorcier, Stéphane Lascaux, Van-Anh HA")
+st.image("https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/logo-datascientest.png")
 st.subheader("Formation Data Analyst - Datascientest Novembre 2023", divider='rainbow')
 st.sidebar.title("Sommaire")
 pages=["Le projet & jeu de données","Analyse & Datavisualisation","Préparation des données","Modélisation","Conclusion"]
