@@ -4,8 +4,5 @@ streamlit
 plotly
 matplotlib
 seaborn
-train-test-split
-standardscaler
-labelencoder
-sklearn
+scikit-learn
 
