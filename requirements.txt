@@ -4,7 +4,7 @@ streamlit
 plotly
 matplotlib
 seaborn
-train_test_split
+train-test-split
 standardscaler
 labelencoder
 sklearn
