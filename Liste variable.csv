@@ -1,0 +1,18 @@
+﻿Catégorie de données;Type de données;Variable;Description
+Démographie;Quantitative;Age;L'âge du client
+Démographie;Catégorielle - 3 à 5 catégories;Education;Niveau scolaire du client
+Démographie;Catégorielle - 3 à 5 catégories;Marital;Situation maritale du client
+Démographie;Catégorielle - sup. à 10 catégories;Job;La profession du client
+Situation financière;Quantitative;Balance;Solde du compte bancaire
+Situation financière;Catégorielle - Binaire;Default;Le client est-il en défaut de paiement (Y/N)
+Situation financière;Catégorielle - Binaire;Housing;Le client a-t-il un credit immobilier (Y/N)
+Situation financière;Catégorielle - Binaire;Loan;Le client a-t-il d'autres credits (Y/N)
+Contact avec la banque;Catégorielle - 3 à 5 catégories;Contact;Type de communication
+Contact avec la banque;Catégorielle - 3 à 5 catégories;Poutcome;Résultat du dernier campagne
+Contact avec la banque;Catégorielle - sup. à 10 catégories;Month;Mois de contact
+Contact avec la banque;Quantitative;Campaign;Nombre de contacts pendant la campagne & par client
+Contact avec la banque;Quantitative;Day;Jour de contact
+Contact avec la banque;Quantitative;Duration;Durée du contact (en second)
+Contact avec la banque;Quantitative;Pdays;Nombre de jours depuis le dernier contact avant campagne
+Contact avec la banque;Quantitative;Previous;Nombre de contacts avant le campagne, & par client
+Cible;Catégorielle - Binaire;Deposit;Le client a-t-il fait du dépôt à terme?
