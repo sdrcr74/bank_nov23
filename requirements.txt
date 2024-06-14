@@ -6,6 +6,6 @@ matplotlib
 seaborn
 scikit-learn
 imblearn
-
+sklearn.linear_model
 
 
