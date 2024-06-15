@@ -5,7 +5,7 @@ plotly
 matplotlib
 seaborn
 scikit-learn
-imblearn
+imblearn.over_sampling
 sklearn.linear_model
 
 
