@@ -267,13 +267,13 @@ elif page==pages[4]:
   modèle_sélectionné=st.selectbox(label="Modèle", options=['Régression logistique','Decision Tree','Random Forest'])
 
   if modèle_sélectionné=='Régression logistique':
-    st.metric(label="accuracy", value=reglog.score(X_train, y_train))
+    st.metric(label="accuracy", value= reglog.score(X_train, y_train))
   
   if modèle_sélectionné=='Decision Tree':
     st.metric(label="accuracy", value= treecl.score(X_train, y_train))
 
   if modèle_sélectionné=='Random Forest':
-    st.metric(label="accuracy", value=forest.score(X_train, y_train))
+    st.metric(label="accuracy", value= forest.score(X_train, y_train))
   fig12=px.scatter(bank,x="balance",y="age", color='deposit', title='Relation Age, balance et Deposit')
   st.plotly_chart(fig12)
 
