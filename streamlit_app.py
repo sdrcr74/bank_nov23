@@ -184,7 +184,7 @@ elif page==pages[3]:
   from sklearn.preprocessing import LabelEncoder
   from sklearn.preprocessing import OneHotEncoder
   from sklearn.metrics import f1_score
-  from imblearn.over_sampling import RandomOverSampler
+
   from sklearn.compose import ColumnTransformer
   from sklearn.pipeline import Pipeline
   from sklearn.impute import SimpleImputer
