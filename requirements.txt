@@ -6,5 +6,6 @@ matplotlib
 seaborn
 scikit-learn
 sklearn.linear_model
+from imblearn.over_sampling import RandomOverSampler
 
 
