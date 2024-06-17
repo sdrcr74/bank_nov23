@@ -1,4 +1,5 @@
-
+url = 'https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/bank.csv'
+bank = pd.read_csv(url)
 bank_cleaned = bank.drop(bank.loc[bank["job"] == "unknown"].index, inplace=True)
 bank_cleaned = bank.drop(bank.loc[bank["education"] == "unknown"].index, inplace=True)
 bank_cleaned = bank.drop(['contact', 'pdays'], axis = 1)
