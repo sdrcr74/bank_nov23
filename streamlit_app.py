@@ -6,6 +6,7 @@ import seaborn as sns
 
 url = 'https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/bank.csv'
 bank = pd.read_csv(url)
+st.markdown("<img src='https://raw.githubusercontent.com/sdrcr74/bank_test/main/datascientest_logo.png' width='100' style='display: block; margin: 0 auto;'>" , unsafe_allow_html=True)
 st.image("https://raw.githubusercontent.com/sdrcr74/bank_nov23/main/logo2.jpeg")
 st.markdown("<h1 style='text-align: justify;'>Prédiction du succès d une campagne de Marketing d’une banque</h1>", unsafe_allow_html=True)
 st.subheader("Maxence Malherre, Sophie Dorcier, Stéphane Lascaux, Van-Anh HA")
